@@ -1,0 +1,197 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(230, 231, 231);
+    color: rgb(14, 12, 12);
+}
+
+h1 {
+    color: rgba(0, 0, 255, 0.705);
+    font-size: 50px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+p{
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.pragraph {
+    color: rgb(15, 15, 177);
+    text-align: center;
+    font-weight: bold;
+}
+button{
+    background-color: rgb(15, 15, 177);
+    color: white;
+    padding: 12px 20px;
+    border:none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 2s;
+}
+
+button:hover {
+    transition: 2s;
+    background-color: #08197c;
+    color: white;
+}
+
+h1,
+h2,
+button {
+    margin-bottom: 20px;
+}
+form,
+h3 {
+    margin-top: 20px;
+}
+
+.btn{
+    margin-top: 12px;
+}
+
+a {
+    color: #111827;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(15, 15, 177);
+}
+
+#hero {
+    background-color: rgb(212, 212, 208);
+    padding: 32px;
+    border-radius: 12px;
+    gap: 32px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.badge {
+    position: absolute;
+    background-color: rgba(0, 0, 255, 0.705);
+    color: white;
+    top: 16px;
+    right: 16px;
+    padding: 8px 12px;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.card {
+    background-color: whitesmoke;
+    padding: 32px;
+    margin-top: 20px;
+    border-radius: 12px;
+    width: fit-content;
+}
+
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    display: block;
+    width: 80%;
+    padding: 12px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+input:focus {
+    outline: none;
+    border-color: rgb(15, 15, 177);;
+    background-color: rgb(224, 213, 213);
+}
+
+.highLight,
+h3 {
+    color: rgb(15, 15, 177);
+    font-weight: bold;
+}
+
+#hero img{
+    width: 350px;
+    border-radius: 16px;
+}
+
+.card img{
+    width: 100%;
+    border-radius: 12px;
+}
+
+.cards-container {
+    display: flex;
+    gap: 20px;
+}
+
+section {
+    margin-top: 40px;
+}
+
+.form-card {
+    background-color: whitesmoke;
+    padding: 32px;
+    margin-top: 20px;
+    border-radius: 12px;
+}
+
+.nav-bar{
+    background-color: rgb(202, 202, 199);
+    padding: 20px 32px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-bar h2 {
+    color: rgba(0, 0, 255, 0.705);
+    font-weight: bold;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    color: #111827;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links :hover {
+    color: rgb(15, 15, 177);
+}
+
+.banner {
+    position: relative;
+    margin-top: 40px;
+    border-radius: 16px;
+    overflow: hidden;
+}
+
+.banner img {
+    width: 100%;
+    display: block;
+}
+
+.banner-text {
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    color: white;
+    max-width: 400px;
+}
